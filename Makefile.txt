@@ -1,0 +1,7 @@
+Personal10FamilyBiz : Personal10FamilyBiz.o
+
+Personal10FamilyBiz.o : Personal10FamilyBiz.cpp bytes.h Validation.h Zerosales.h
+			cc -c Personal10FamilyBiz.cpp
+
+clean :
+	rm Personal10FamilyBiz Personal10FamilyBiz.o
